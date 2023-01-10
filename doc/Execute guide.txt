@@ -1,0 +1,17 @@
+arithmetic encoding
+
+$ ./bin/arcd -e < ‘file1’ | tee ’file2’
+
+arithmetic decoding
+
+$ ./bin/arcd -d < ’file2’ | tee ‘file3’
+
+huffman encoding
+
+$ ./bin/huffman -i  ‘file1’ -o ’file2’ -c
+
+huffman decoding
+
+$ ./bin/huffman -i ’file2’ -o ‘file3’ -d
+
+After each encoding or decoding, the total time it uses will print at the end of encoding/decoding files.

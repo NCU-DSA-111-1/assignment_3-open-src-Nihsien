@@ -1,0 +1,5 @@
+
+Build Guide
+
+Enter 'make’ to compile all the header files and source codes(including arcd and huffman)
+
